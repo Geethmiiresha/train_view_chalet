@@ -1,0 +1,66 @@
+/* පොදු සැකසුම් */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* වම් පස Sidebar එක */
+.sidebar {
+    width: 260px;
+    background-color: #001f3f; /* තද නිල් පැහැය */
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: #bdc3c7;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #34495e;
+    color: white;
+}
+
+/* ප්‍රධාන අන්තර්ගතය */
+.main-content {
+    flex-grow: 1;
+    padding: 30px;
+    overflow-y: auto;
+}
+
+/* කාඩ්පත් සහ දත්ත වගු (Cards & Tables) */
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
